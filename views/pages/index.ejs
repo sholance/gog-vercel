@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>client side ejs compiled with express middleware</title>
+  </head>
+  <body>
+    <%- include('../partials/header', {pagina: "qualquer coisa"}) %>
+    <div id="greeting"></div>
+    <h1>Hello world!</h1>
+    <p>
+      Estou rebendo do back a mensagem:
+      <%= message %>
+    </p>
+  </body>
+</html>
